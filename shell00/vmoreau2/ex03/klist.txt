@@ -1,0 +1,5 @@
+Credentials cache: API:42512CBC-9BA4-478D-8CF7-4E12317E4995
+        Principal: vmoreau@42.FR
+
+  Issued                Expires               Principal
+Aug 26 23:51:22 2019  Sep  2 23:51:22 2019  krbtgt/42.FR@42.FR

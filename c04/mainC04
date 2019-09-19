@@ -1,0 +1,36 @@
+*****************EX05**************
+
+#include <stdio.h>
+
+int     main(void)
+{
+    char    *basebi = "01";
+    char    *basehexa = "0123456789ABCDEF";
+    char    *baseoct = "01234567";
+    char    *basedec = "0123456789";
+    char    *str = "       ---+-+-1111111111111111111111111111111";
+
+    printf("%d\n", ft_atoi_base(str, basebi));
+    printf("%d\n", ft_atoi_base(str, basehexa));
+    printf("%d\n", ft_atoi_base(str, baseoct));
+    printf("%d", ft_atoi_base(str, basedec));
+}
+
+*************EX04***************
+
+int     main(void)
+{
+    char    *basebi = "01";
+    char    *basehexa = "0123456789ACDEF";
+    char    *baseoct = "poneyvif";
+    char    *basedec = "0123456789";
+    int     nbr = 1234;
+
+    ft_putnbr_base(nbr, basebi);
+    ft_putchar(10);
+    ft_putnbr_base(nbr, basehexa);
+    ft_putchar(10);
+    ft_putnbr_base(nbr, baseoct);
+    ft_putchar(10);
+    ft_putnbr_base(nbr, basedec);
+}
